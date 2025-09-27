@@ -33,7 +33,7 @@ int main(){
     fgets(adjective3, sizeof(adjective3), stdin);
     adjective3[strlen(adjective3) - 1] = '\0';
 
-    printf("\n\n%s was playing Minecraft when a %s fell on his head, his %s friend who was %s and %s was %s when he saw this happen. ", noun, item, adjective1, adjective2, adjective3, verb);
+    printf("\n%s was playing Minecraft when a %s fell on his head, his %s friend who was %s and %s was %s when he saw this happen. ", noun, item, adjective1, adjective2, adjective3, verb);
 
     return 0;
 }

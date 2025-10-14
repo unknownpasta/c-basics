@@ -32,7 +32,7 @@ int main(){
     }while(answer != guess);
     
     printf("\nThe answer is %d", answer);
-    printf("\nYou took --%d-- tries", tries);
+    printf("\nYou took -- %d -- tries", tries);
     
     return 0;
 }
